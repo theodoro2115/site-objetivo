@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+:root {
+    --font-primaria: 'Montserrat', sans-serif;
+    --cor-primaria: #04377b;  /* Azul escuro Objetivo */
+    --cor-secundaria: #ff9933; /* Laranja */
+    --cor-clara: #ffffff;      /* Branco */
+    --cor-escura: #333333;     /* Preto suave */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primaria);
+    background-color: var(--cor-clara);
+    color: var(--cor-escura);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    padding: 20px 0;
+    text-align: center;
+    color: var(--cor-clara);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav {
+    background-color: var(--cor-primaria);
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: var(--cor-clara);
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: var(--cor-secundaria);
+    border-radius: 5px;
+}
+
+.cad_produtos {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    margin-top: 50px;
+}
+
+.cad_produtos_formulario {
+    background-color: var(--cor-clara);
+    padding: 40px;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.cad_produtos_formulario h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: var(--cor-primaria);
+}
+
+.cad_produtos_formulario label {
+    font-weight: 600;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.cad_produtos_formulario input[type="text"],
+.cad_produtos_formulario input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.cad_produtos_enviar {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-clara);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cad_produtos_enviar:hover {
+    background-color: var(--cor-primaria);
+}
+
+footer {
+    background-color: var(--cor-primaria);
+    color: var(--cor-clara);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
+.logo{
+    margin-right: 1200px;
+    margin-top: -80px;
+}
+.logo_1{
+    margin-top: -60px;
+}
