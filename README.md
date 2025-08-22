@@ -28,7 +28,7 @@ Contato Claro – Informações de contato evidentes para conversão rápida
 
 ---
 
-## ​ Demonstração
+## 📽 Demonstração
 <p align="center">
   <img src="video/site-objetivo.gif" alt="Demonstração do Site Objetivo" width="700"/>
 </p>
@@ -41,7 +41,7 @@ Contato Claro – Informações de contato evidentes para conversão rápida
 
 ---
 
-## ​ Link da Aplicação
+## 🔗 Link da Aplicação 
 
 Acesse o site online agora mesmo:
 
