@@ -30,7 +30,7 @@ Contato Claro – Informações de contato evidentes para conversão rápida
 
 ## 📽 Demonstração
 <p align="center">
-  <img src="video/site-objetivo.gif" alt="Demonstração do Site Objetivo" width="700"/>
+  <img src="video/objetivo.gif" alt="Demonstração do Site Objetivo" width="700"/>
 </p>
 
 <p align="center">
